@@ -4,6 +4,9 @@ import fs from 'fs'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: process.env.GITHUB_PAGES
+    ? "expostamprallykuji"
+    : "./",
   build: {
     outDir: 'docs',
   },

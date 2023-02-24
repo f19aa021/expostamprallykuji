@@ -5,7 +5,7 @@ const Header = ({ numStamped }) => {
     <header>
       <div id="logo">
         <a>
-          <img id="logo-icon" src="/logo_icon.svg" alt="logo icon" />
+          <img id="logo-icon" src="/expostamprallykuji/logo_icon.svg" alt="logo icon" />
           <div id="logo-txt">CKC & HIDD<br/>スタンプラリーくじ</div>
         </a>
       </div>
